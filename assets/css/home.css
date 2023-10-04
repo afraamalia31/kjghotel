@@ -1,0 +1,28 @@
+.whatsapp-logo {
+	position: fixed;
+	bottom: 20px; /* jarak dari tepi bawah layar */
+	right: 20px; /* jarak dari tepi kanan layar */
+	z-index: 9999; /* memberikan index tertinggi agar tetap stay di atas konten lain */
+  }
+  
+  .whatsapp-logo img {
+	width: 60px;
+	height: 60px;
+	display: block; /* menghilangkan margin default pada img */
+	margin: auto; /* membuat img menjadi tengah secara horizontal */
+  }
+  
+  @media screen and (max-width: 767px) {
+	/* CSS untuk tampilan layar kecil */
+	.whatsapp-logo {
+	  bottom: 80px;
+	  right: 20px;
+	}
+  }
+ 
+  
+  
+  
+  
+  
+  
